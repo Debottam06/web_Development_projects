@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(59deg,rgb(24, 24, 24),rgb(103, 103, 105));
+}
+.calculator{
+    /* width: 320px;
+    height: 600px; */
+    border: 1px solid rgb(127, 126, 133);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: -7px -7px 15px rgba(216, 231, 170, 0.1);
+}
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    font-size: 40px;
+    text-align: right;
+    color: white;
+}
+input:placeholder{
+    color: #ffffff;
+}
+button{
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+    box-shadow: -7px -7px 15px rgba(216, 231, 170, 0.1);
+    cursor: pointer;
+}
+.equalbtn{
+    background-color: rgb(254, 231, 246);
+    color: black;
+}
+.opt{
+    box-shadow: 7px -7px 15px rgba(239, 93, 57, 0.3); 
+    font-size: 22px;
+    font-weight: 700px;
+    color: rgb(9, 250, 5);
+}
